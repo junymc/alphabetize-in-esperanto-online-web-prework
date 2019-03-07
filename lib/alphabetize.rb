@@ -1,7 +1,7 @@
-def alphabetize(arr)
-  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
-  arr.sort_by do |string|
+def alphabetize(arr)
+ arr.sort_by do |string|
     string.split(" ").map do |letter|
       alphabet.index(letter)
     end
