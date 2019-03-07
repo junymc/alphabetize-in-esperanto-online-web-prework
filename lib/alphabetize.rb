@@ -5,4 +5,5 @@ def alphabetize(arr)
     string.split(" ").map do |letter|
       alphabet.index(letter)
     end
+  end
 end
